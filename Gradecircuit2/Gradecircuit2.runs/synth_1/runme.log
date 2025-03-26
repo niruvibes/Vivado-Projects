@@ -1,0 +1,217 @@
+
+*** Running vivado
+    with args -log Gradecircuit2.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source Gradecircuit2.tcl
+
+
+
+****** Vivado v2024.2 (64-bit)
+  **** SW Build 5239630 on Fri Nov 08 22:35:27 MST 2024
+  **** IP Build 5239520 on Sun Nov 10 16:12:51 MST 2024
+  **** SharedData Build 5239561 on Fri Nov 08 14:39:27 MST 2024
+  **** Start of session at: Fri Mar 14 15:56:26 2025
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source Gradecircuit2.tcl -notrace
+Command: read_checkpoint -auto_incremental -incremental C:/Users/neilt/Documents/UNSW/ELEC2141/Gradecircuit2/Gradecircuit2.srcs/utils_1/imports/synth_1/Gradecircuit2.dcp
+INFO: [Vivado 12-5825] Read reference checkpoint from C:/Users/neilt/Documents/UNSW/ELEC2141/Gradecircuit2/Gradecircuit2.srcs/utils_1/imports/synth_1/Gradecircuit2.dcp for incremental synthesis
+INFO: [Vivado 12-7989] Please ensure there are no constraint changes
+Command: synth_design -top Gradecircuit2 -part xc7a35tcpg236-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+INFO: [Designutils 20-5440] No compile time benefit to using incremental synthesis; A full resynthesis will be run
+INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 32112
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 1029.188 ; gain = 468.027
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'Gradecircuit2' [C:/Users/neilt/Documents/UNSW/ELEC2141/Gradecircuit2/Gradecircuit2.srcs/sources_1/new/Gradecircuit2.v:23]
+INFO: [Synth 8-6157] synthesizing module 'mux8to1' [C:/Users/neilt/Documents/UNSW/ELEC2141/Gradecircuit2/Gradecircuit2.srcs/sources_1/new/mux8to1.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'mux8to1' (0#1) [C:/Users/neilt/Documents/UNSW/ELEC2141/Gradecircuit2/Gradecircuit2.srcs/sources_1/new/mux8to1.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'Gradecircuit2' (0#1) [C:/Users/neilt/Documents/UNSW/ELEC2141/Gradecircuit2/Gradecircuit2.srcs/sources_1/new/Gradecircuit2.v:23]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:14 ; elapsed = 00:00:15 . Memory (MB): peak = 1134.328 ; gain = 573.168
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:14 ; elapsed = 00:00:15 . Memory (MB): peak = 1134.328 ; gain = 573.168
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:14 ; elapsed = 00:00:15 . Memory (MB): peak = 1134.328 ; gain = 573.168
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1134.328 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/Users/neilt/Documents/UNSW/ELEC2141/Gradecircuit2/Gradecircuit2.srcs/constrs_1/new/gradecircuit2.xdc]
+CRITICAL WARNING: [Common 17-161] Invalid option value 'current_design' specified for 'objects'. [C:/Users/neilt/Documents/UNSW/ELEC2141/Gradecircuit2/Gradecircuit2.srcs/constrs_1/new/gradecircuit2.xdc:7]
+CRITICAL WARNING: [Common 17-161] Invalid option value 'current_design' specified for 'objects'. [C:/Users/neilt/Documents/UNSW/ELEC2141/Gradecircuit2/Gradecircuit2.srcs/constrs_1/new/gradecircuit2.xdc:8]
+Finished Parsing XDC File [C:/Users/neilt/Documents/UNSW/ELEC2141/Gradecircuit2/Gradecircuit2.srcs/constrs_1/new/gradecircuit2.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/neilt/Documents/UNSW/ELEC2141/Gradecircuit2/Gradecircuit2.srcs/constrs_1/new/gradecircuit2.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/Gradecircuit2_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/Gradecircuit2_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1135.574 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.003 . Memory (MB): peak = 1135.574 ; gain = 0.000
+INFO: [Designutils 20-5440] No compile time benefit to using incremental synthesis; A full resynthesis will be run
+INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:27 ; elapsed = 00:00:28 . Memory (MB): peak = 1135.574 ; gain = 574.414
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a35tcpg236-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:27 ; elapsed = 00:00:28 . Memory (MB): peak = 1135.574 ; gain = 574.414
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:27 ; elapsed = 00:00:28 . Memory (MB): peak = 1135.574 ; gain = 574.414
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:27 ; elapsed = 00:00:29 . Memory (MB): peak = 1135.574 ; gain = 574.414
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 90 (col length:60)
+BRAMs: 100 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:30 ; elapsed = 00:00:31 . Memory (MB): peak = 1161.992 ; gain = 600.832
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:39 ; elapsed = 00:00:41 . Memory (MB): peak = 1323.734 ; gain = 762.574
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:39 ; elapsed = 00:00:41 . Memory (MB): peak = 1323.734 ; gain = 762.574
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:39 ; elapsed = 00:00:41 . Memory (MB): peak = 1333.320 ; gain = 772.160
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:45 ; elapsed = 00:00:48 . Memory (MB): peak = 1549.996 ; gain = 988.836
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:45 ; elapsed = 00:00:48 . Memory (MB): peak = 1549.996 ; gain = 988.836
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:45 ; elapsed = 00:00:48 . Memory (MB): peak = 1549.996 ; gain = 988.836
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:45 ; elapsed = 00:00:48 . Memory (MB): peak = 1549.996 ; gain = 988.836
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:45 ; elapsed = 00:00:48 . Memory (MB): peak = 1549.996 ; gain = 988.836
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:45 ; elapsed = 00:00:48 . Memory (MB): peak = 1549.996 ; gain = 988.836
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-----+------+
+|      |Cell |Count |
++------+-----+------+
+|1     |LUT4 |     1|
+|2     |IBUF |     4|
+|3     |OBUF |     1|
++------+-----+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:45 ; elapsed = 00:00:48 . Memory (MB): peak = 1549.996 ; gain = 988.836
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 1 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:28 ; elapsed = 00:00:45 . Memory (MB): peak = 1549.996 ; gain = 987.590
+Synthesis Optimization Complete : Time (s): cpu = 00:00:45 ; elapsed = 00:00:48 . Memory (MB): peak = 1549.996 ; gain = 988.836
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1559.227 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1562.852 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Synth Design complete | Checksum: 407cbf3e
+INFO: [Common 17-83] Releasing license: Synthesis
+23 Infos, 1 Warnings, 2 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:52 ; elapsed = 00:00:59 . Memory (MB): peak = 1562.852 ; gain = 1191.980
+INFO: [runtcl-6] Synthesis results are not added to the cache due to CRITICAL_WARNING
+Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1562.852 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'C:/Users/neilt/Documents/UNSW/ELEC2141/Gradecircuit2/Gradecircuit2.runs/synth_1/Gradecircuit2.dcp' has been generated.
+INFO: [Vivado 12-24828] Executing command : report_utilization -file Gradecircuit2_utilization_synth.rpt -pb Gradecircuit2_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Fri Mar 14 15:57:37 2025...

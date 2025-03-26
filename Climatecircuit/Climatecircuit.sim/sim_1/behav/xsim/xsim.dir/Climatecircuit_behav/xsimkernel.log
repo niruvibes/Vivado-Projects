@@ -1,0 +1,7 @@
+Running: xsim.dir/Climatecircuit_behav/xsimk.exe -simmode gui -wdb Climatecircuit_behav.wdb -simrunnum 0 -socket 57693
+Design successfully loaded
+Design Loading Memory Usage: 28408 KB (Peak: 28408 KB)
+Design Loading CPU Usage: 592 ms
+Simulation completed
+Simulation Memory Usage: 29484 KB (Peak: 29484 KB)
+Simulation CPU Usage: 639 ms

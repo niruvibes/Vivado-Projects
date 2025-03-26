@@ -1,0 +1,15 @@
+set_property SRC_FILE_INFO {cfile:C:/Users/neilt/Documents/UNSW/ELEC2141/Gradecircuit2/Gradecircuit2.srcs/constrs_1/new/gradecircuit2.xdc rfile:../../../Gradecircuit2.srcs/constrs_1/new/gradecircuit2.xdc id:1} [current_design]
+set_property src_info {type:XDC file:1 line:1 export:INPUT save:INPUT read:READ} [current_design]
+set_property -dict { PACKAGE_PIN V17 IOSTANDARD LVCMOS33 } [get_ports {L}]
+set_property src_info {type:XDC file:1 line:2 export:INPUT save:INPUT read:READ} [current_design]
+set_property -dict { PACKAGE_PIN V16 IOSTANDARD LVCMOS33 } [get_ports {F}]
+set_property src_info {type:XDC file:1 line:3 export:INPUT save:INPUT read:READ} [current_design]
+set_property -dict { PACKAGE_PIN W16 IOSTANDARD LVCMOS33 } [get_ports {M}]
+set_property src_info {type:XDC file:1 line:4 export:INPUT save:INPUT read:READ} [current_design]
+set_property -dict { PACKAGE_PIN W17 IOSTANDARD LVCMOS33 } [get_ports {A}]
+set_property src_info {type:XDC file:1 line:5 export:INPUT save:INPUT read:READ} [current_design]
+set_property -dict { PACKAGE_PIN U16 IOSTANDARD LVCMOS33 } [get_ports {P}]
+set_property src_info {type:XDC file:1 line:7 export:INPUT save:INPUT read:READ} [current_design]
+set_property CONFIG_VOLTAGE 3.3 {current_design}
+set_property src_info {type:XDC file:1 line:8 export:INPUT save:INPUT read:READ} [current_design]
+set_property CFGBVS VCCO {current_design}
