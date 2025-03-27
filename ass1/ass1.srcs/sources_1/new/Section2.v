@@ -30,14 +30,14 @@ wire [3:0] complimented;
 
 twos_compliment tc(REF, complimented);
 
+// wire parity_out, parity_ref, xor_parity;
+
 xor parity_out(outs_parity, OUTS[0], OUTS[1], OUTS[2], OUTS[3]);
 
 xor parity_ref(ref_parity, complimented[0], complimented[1], complimented[2], complimented[3]);
 
-wire g, l, e;
-comparator parity(outs_parity, ref_parity, g, l, e);
+xor same(xor_parity, outs_parity, ref_parity);
 
-buf buffer(CORR1, e);
-
+not not_xor(CORR1, xor_parity);
 
 endmodule
