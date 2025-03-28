@@ -21,8 +21,16 @@
 
 
 module FullAdder(
-    input reg A, B;
-    input reg carry;
-    output wire sum, carry; 
+    input A, B,
+    input carryin,
+    output sum, carryout
     );
+
+xor a_b_xor(xor_a_b, A, B);
+xor a_b_carry_xor(sum, xor_a_b, carryin);
+
+and a_b_and(a_b, A, B);
+and a_b_xor_carry_and(a_b_xor_c, xor_a_b, carryin);
+or  a_b_and_a_b_xor_carry_and_or(carryout, a_b, a_b_xor_c);
+
 endmodule
