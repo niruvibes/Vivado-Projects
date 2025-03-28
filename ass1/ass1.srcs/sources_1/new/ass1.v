@@ -29,9 +29,6 @@ module ass1(
     output	CORR1, CORR2, OPEN
     );
 
-
-
-
 Section1	stage1(MEAS, REF, COMP);
 Section2    stage2(OUTS, REF, CORR1);
 Section3    stage3(CODE, OUTS, CORR2);
