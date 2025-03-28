@@ -3,9 +3,9 @@
 // Company: 
 // Engineer: 
 // 
-// Create Date: 26.03.2025 15:45:02
+// Create Date: 28.03.2025 13:56:21
 // Design Name: 
-// Module Name: comparator
+// Module Name: FullAdder
 // Project Name: 
 // Target Devices: 
 // Tool Versions: 
@@ -20,32 +20,9 @@
 //////////////////////////////////////////////////////////////////////////////////
 
 
-module comparator(
-    input A,
-    input B,
-    output G,
-    output L,
-    output E
+module FullAdder(
+    input reg A, B;
+    input reg carry;
+    output wire sum, carry; 
     );
-
-wire a_not, b_not;
-
-// not not_a(a_not,A);
-// not not_b(b_not,B);
-
-// xnor a_b_nor(E, A, B);
-
-// and not_b_a_and(G, A, b_not);
-
-// and not_a_b_and(L, a_not, B);
-
-not not_a(a_not,A);
-not not_b(b_not,B);
-
-and not_a_b(L, a_not, B);
-
-and a_not_b(G, A, b_not);
-
-nor (E, L, G);
-
 endmodule

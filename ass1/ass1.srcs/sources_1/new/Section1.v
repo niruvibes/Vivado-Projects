@@ -26,6 +26,8 @@ module Section1(
     output [1:0] COMP
     );
 
+// likely lower gate input delay compared to 4 bit comparator
+
 wire g3, l3, e3;
 comparator c3(MEAS[3], REF[3], g3, l3, e3);
 
@@ -48,8 +50,5 @@ and e3_g2_and(e3_g2, e3, g2);
 and e3_e2_g1_and(e3_e2_g1, e3, e2, g1);
 and e3_e2_e1_g0_and(e3_e2_e1_g0, e3, e2, e1, g0);
 or G(COMP[1], e3_e2_e1_g0, e3_e2_g1, e3_g2, g3);
-
-
-//and E(COMP, e3, e2, e1, e0);
 
 endmodule
