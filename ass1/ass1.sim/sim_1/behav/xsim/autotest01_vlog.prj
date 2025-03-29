@@ -14,7 +14,7 @@ verilog xil_defaultlib  \
 "../../../../ass1.srcs/sim_1/new/FullAdder_tb.v" \
 "../../../../ass1.srcs/sim_1/new/HalfAdder_tb.v" \
 "../../../../ass1.srcs/sim_1/new/Section3_tb.v" \
-"../../../../../../../../Downloads/sample autotest-20250328/autotest01.v" \
+"../../../../sample autotest-20250329/autotest01.v" \
 
 # compile glbl module
 verilog xil_defaultlib "glbl.v"

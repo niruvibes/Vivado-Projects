@@ -41,8 +41,6 @@ not not_b(b_not,val[2]);
 not not_c(c_not,val[1]);
 not not_d(d_not,val[0]);
 
-// repeated calculations
-
 
 and a_not_b_not_c_not_d_and(a_not_b_not_c_not_d, val[3], b_not, c_not, d_not);
 and not_a_d_and(not_a_d, a_not, val[0]);

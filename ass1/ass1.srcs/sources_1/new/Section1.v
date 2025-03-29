@@ -40,6 +40,9 @@ comparator c1(MEAS[1], REF[1], g1, l1, e1);
 wire g0, l0, e0;
 comparator c0(MEAS[0], REF[0], g0, l0, e0);
 
+wire e3_l2, e3_e2_l1, e3_e2_e1_l0;
+wire e3_g2, e3_e2_g1, e3_e2_e1_g0;
+
 and e3_l2_and(e3_l2, e3, l2);
 and e3_e2_l1_and(e3_e2_l1, e3, e2, l1);
 and e3_e2_e1_l0_and(e3_e2_e1_l0, e3, e2, e1, l0);

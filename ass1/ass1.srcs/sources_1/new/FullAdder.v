@@ -26,6 +26,9 @@ module FullAdder(
     output sum, carryout
     );
 
+wire xor_a_b;
+wire a_b, a_b_xor_c, carryout;
+
 xor a_b_xor(xor_a_b, A, B);
 xor a_b_carry_xor(sum, xor_a_b, carryin);
 

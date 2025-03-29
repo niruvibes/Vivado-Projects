@@ -27,4 +27,5 @@ module HalfAdder(
 
 xor a_b_xor(S, A, B);
 and a_b_and(C, A, B);
+
 endmodule

@@ -30,9 +30,11 @@ wire [3:0] sum;
 wire [3:0] carry;
 
 HalfAdder A0(CODE[0], OUTS[0], sum[0], carry[0]);
-FullAdder A1(CODE[1], OUTS[1], carry, sum[1], carry[1]);
-FullAdder A2(CODE[2], OUTS[2], carry, sum[2], carry[2]);
-FullAdder A3(CODE[3], OUTS[3], carry, sum[3], carry[3]); //can replace with 3 input xor gate but like wtvrs
+FullAdder A1(CODE[1], OUTS[1], carry[0], sum[1], carry[1]);
+FullAdder A2(CODE[2], OUTS[2], carry[1], sum[2], carry[2]);
+//FullAdder A3(CODE[3], OUTS[3], carry[2], sum[3], carry[3]); //can replace with 3 input xor gate but like wtvrs
+
+xor sumoutput(sum[3], CODE[3], OUTS[3], carry[2]);
 
 nor checker(CORR2, sum[0], sum[1], sum[2], sum[3]);
 
