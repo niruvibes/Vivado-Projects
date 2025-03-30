@@ -4,6 +4,7 @@ INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/neilt/Documents/Vivado-Pro
 INFO: [VRFC 10-311] analyzing module comparator
 INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/neilt/Documents/Vivado-Projects/ass1/ass1.srcs/sources_1/new/Section2.v" into library xil_defaultlib
 INFO: [VRFC 10-311] analyzing module Section2
+WARNING: [VRFC 10-9336] redeclaration of ANSI port 'complimented' is not allowed [C:/Users/neilt/Documents/Vivado-Projects/ass1/ass1.srcs/sources_1/new/Section2.v:30]
 INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/neilt/Documents/Vivado-Projects/ass1/ass1.srcs/sources_1/new/Section1.v" into library xil_defaultlib
 INFO: [VRFC 10-311] analyzing module Section1
 INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/neilt/Documents/Vivado-Projects/ass1/ass1.srcs/sources_1/new/FullAdder.v" into library xil_defaultlib
@@ -25,6 +26,8 @@ INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/neilt/Documents/Vivado-Pro
 INFO: [VRFC 10-311] analyzing module twos_compliment_tb
 INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/neilt/Documents/Vivado-Projects/ass1/ass1.srcs/sim_1/new/FullAdder_tb.v" into library xil_defaultlib
 INFO: [VRFC 10-311] analyzing module FullAdder_tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/neilt/Documents/Vivado-Projects/ass1/ass1.srcs/sim_1/new/comparator_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module comparator_tb
 INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/neilt/Documents/Vivado-Projects/ass1/ass1.srcs/sim_1/new/HalfAdder_tb.v" into library xil_defaultlib
 INFO: [VRFC 10-311] analyzing module HalfAdder_tb
 INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/neilt/Documents/Vivado-Projects/ass1/ass1.srcs/sim_1/new/Section3_tb.v" into library xil_defaultlib

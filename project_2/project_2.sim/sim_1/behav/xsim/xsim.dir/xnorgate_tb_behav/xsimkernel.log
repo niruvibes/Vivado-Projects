@@ -1,0 +1,7 @@
+Running: xsim.dir/xnorgate_tb_behav/xsimk.exe -simmode gui -wdb xnorgate_tb_behav.wdb -simrunnum 0 -socket 54619
+Design successfully loaded
+Design Loading Memory Usage: 28464 KB (Peak: 28464 KB)
+Design Loading CPU Usage: 656 ms
+Simulation completed
+Simulation Memory Usage: 29612 KB (Peak: 29612 KB)
+Simulation CPU Usage: 718 ms

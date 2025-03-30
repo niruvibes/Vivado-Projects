@@ -5,8 +5,9 @@ module Section2_tb();
     
     // Outputs (wire for outputs)
     wire CORR1;
+     wire [3:0] COMPLIMENT;
 
-    Section2 UUT(OUTS, REF, CORR1);
+    Section2 UUT(OUTS, REF, CORR1, COMPLIMENT);
     
     // initial begin
     //     OUTS = 4'b1010;
@@ -37,8 +38,8 @@ module Section2_tb();
         
         forever begin
             #100;
-            {OUTS} = {OUTS} +1;
-            // {REF} = {REF} +1;
+//            {OUTS} = {OUTS} +1;
+             {REF} = {REF} +1;
         end
     end
 

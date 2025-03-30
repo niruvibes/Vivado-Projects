@@ -23,7 +23,8 @@
 module Section2(
     input [3:0] OUTS,
     input [3:0] REF,
-    output CORR1
+    output CORR1,
+    output [3:0] complimented
     );
 
 wire [3:0] complimented;
