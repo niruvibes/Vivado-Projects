@@ -3,9 +3,9 @@
 // Company: 
 // Engineer: 
 // 
-// Create Date: 26.03.2025 15:45:02
+// Create Date: 30.03.2025 17:27:19
 // Design Name: 
-// Module Name: comparator
+// Module Name: comparator_noE
 // Project Name: 
 // Target Devices: 
 // Tool Versions: 
@@ -19,13 +19,11 @@
 // 
 //////////////////////////////////////////////////////////////////////////////////
 
-
-module comparator(
+module comparator_noE(
     input A,
     input B,
     output G,
-    output L,
-    output E
+    output L
     );
 
 wire a_not, b_not;
@@ -36,7 +34,5 @@ not not_b(b_not,B);
 and not_a_b(L, a_not, B);
 
 and a_not_b(G, A, b_not);
-
-nor equal(E, L, G); // saves 4 GIC as opposed to xnor
 
 endmodule

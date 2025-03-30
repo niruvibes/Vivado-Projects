@@ -10,6 +10,7 @@ Starting simulation data flow analysis
 Completed simulation data flow analysis
 Time Resolution for simulation is 1ps
 Compiling module xil_defaultlib.comparator
+Compiling module xil_defaultlib.comparator_noE
 Compiling module xil_defaultlib.Section1
 Compiling module xil_defaultlib.twos_compliment
 Compiling module xil_defaultlib.Section2

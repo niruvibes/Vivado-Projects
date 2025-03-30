@@ -15,6 +15,8 @@ INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/neilt/Documents/Vivado-Pro
 INFO: [VRFC 10-311] analyzing module Section3
 INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/neilt/Documents/Vivado-Projects/ass1/ass1.srcs/sources_1/new/ass1.v" into library xil_defaultlib
 INFO: [VRFC 10-311] analyzing module ass1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/neilt/Documents/Vivado-Projects/ass1/ass1.srcs/sources_1/new/comparator_noE.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module comparator_noE
 INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/neilt/Documents/Vivado-Projects/ass1/ass1.srcs/sim_1/new/Section1_tb.v" into library xil_defaultlib
 INFO: [VRFC 10-311] analyzing module Section1_tb
 INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/neilt/Documents/Vivado-Projects/ass1/ass1.srcs/sim_1/new/Section2_tb.v" into library xil_defaultlib
