@@ -38,7 +38,7 @@ module Section2_tb();
         forever begin
             #100;
             {OUTS} = {OUTS} +1;
-            {REF} = {REF} +1;
+            // {REF} = {REF} +1;
         end
     end
 

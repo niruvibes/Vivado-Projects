@@ -27,10 +27,9 @@ module Section2(
     );
 
 wire [3:0] complimented;
+wire outs_parity, ref_parity, xor_parity;
 
 twos_compliment tc(REF, complimented);
-
-// wire parity_out, parity_ref, xor_parity;
 
 xor parity_out(outs_parity, OUTS[0], OUTS[1], OUTS[2], OUTS[3]);
 

@@ -34,7 +34,9 @@ Section2    stage2(OUTS, REF, CORR1);
 Section3    stage3(CODE, OUTS, CORR2);
 
 wire	stage1output;
+
 nor		stage1check(stage1output, COMP[0], COMP[1]);
 
 and 	final(OPEN, stage1output, CORR1, CORR2);
+
 endmodule
