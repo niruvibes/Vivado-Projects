@@ -2,6 +2,15 @@
 	"folders": [
 		{
 			"path": "."
+		},
+		{
+			"name": "SSH FS - comp1521",
+			"uri": "ssh://comp1521/import/reed/8/z5592479/Education/comp1521"
+		},
+		{
+			"name": "SSH FS - comp2521",
+			"uri": "ssh://comp2521/import/reed/8/z5592479/Education/comp2521"
 		}
-	]
+	],
+	"settings": {}
 }
