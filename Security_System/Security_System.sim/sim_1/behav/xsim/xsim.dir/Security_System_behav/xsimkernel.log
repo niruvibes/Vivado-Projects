@@ -2,3 +2,6 @@ Running: xsim.dir/Security_System_behav/xsimk.exe -simmode gui -wdb Security_Sys
 Design successfully loaded
 Design Loading Memory Usage: 29396 KB (Peak: 29396 KB)
 Design Loading CPU Usage: 531 ms
+Simulation completed
+Simulation Memory Usage: 30296 KB (Peak: 30296 KB)
+Simulation CPU Usage: 608 ms
