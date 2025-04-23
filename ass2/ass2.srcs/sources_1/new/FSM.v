@@ -45,9 +45,9 @@ always@(posedge TIME, posedge START) begin
         curr_state <= 3'b001;
     end else begin
         case (curr_state)
-            3'b010: comp_saved <= COMP;
-            3'b011: outs_saved <= OUTS;
-            3'b100: code_saved <= CODE;
+            3'b001: comp_saved <= COMP;
+            3'b010: outs_saved <= OUTS;
+            3'b011: code_saved <= CODE;
         endcase
 
         curr_state <= next_state;
@@ -57,26 +57,23 @@ end
 // next state logic
 always@* begin
     case (curr_state)
-        // 3'b000: begin // init
-        //     next_state = 3'b001;
-        // end
-        3'b001: begin // reading
+        3'b000: begin // reading
             next_state = 3'b010;
         end
-        3'b010: begin // chal1
+        3'b001: begin // chal1
             next_state = 3'b011;
         end
-        3'b011: begin // chal2
+        3'b010: begin // chal2
             next_state = 3'b100;
         end
-        3'b100: begin
+        3'b011: begin //chal3
             next_state = 3'b101;
         end
-        3'b101: begin // chal3
+        3'b100: begin // chal3
             if (comp_saved == 2'b00 && outs_saved == 4'b0000 && code_saved == 4'b0000) begin
-                next_state = 3'b110; // completed go to output logic
+                next_state = 3'b101; // completed go to output logic
             end else begin
-                next_state = 3'b010; // go to chal1
+                next_state = 3'b011; // go to chal1
             end
         end
         default: begin
@@ -89,9 +86,7 @@ end
 always@(curr_state) begin
     OVER = 1'b0;
     if (curr_state == 3'b110) begin
-        $display("At time %t: comp_saved=%b outs_saved=%b code_saved=%b", $time, comp_saved, outs_saved, code_saved);
         if (comp_saved == 2'b00 && outs_saved == 4'b0000 && code_saved == 4'b0000) begin
-            $display("fr");
             OVER = 1'b1;
         end
     end 
