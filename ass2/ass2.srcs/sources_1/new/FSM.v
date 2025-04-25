@@ -31,7 +31,7 @@ module FSM(
 );
 
 //signal declaration
-wire in;
+reg in;
 
 // state register
 always@(posedge TIME, posedge START) begin
