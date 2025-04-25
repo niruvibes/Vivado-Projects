@@ -28,13 +28,10 @@ module FSM_tb();
     reg [3:0] OUTS = 4'b1111;
     reg [3:0] CODE = 4'b1111;
     wire OVER;
-    wire [2:0] curr_state;
-    wire [2:0] next_state;
-    wire [1:0] comp_saved;
-    wire [3:0] outs_saved;
-    wire [3:0] code_saved;
+    wire [1:0] curr_state;
+    wire [1:0] next_state;
     
-    FSM UUT(START, TIME, COMP, OUTS, CODE, OVER, curr_state, next_state, comp_saved, outs_saved, code_saved);
+    FSM UUT(START, TIME, COMP, OUTS, CODE, OVER, curr_state, next_state);
     
     initial begin
         START = 1'b1;
