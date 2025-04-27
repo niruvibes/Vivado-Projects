@@ -28,29 +28,34 @@ module ass2_structural(
     output wire OVER
 );
 
-wire q1, q1_not;
-wire q0, q0_not;
+wire [1:0] state, state_not;
+//wire q1, q1_not;
+//wire q0, q0_not;
 wire j1, k1;
 wire j0, k0;
 wire In, In_not;
-wire ff1_out, ff1_out_not;
-wire ff0_out, ff0_out_not;
 
-not(q1_not, q1);
-not(q0_not, q0);
+//not(q1_not, q1);
+not(state_not[1], state[1]);
+//not(q0_not, q0);
+not(state_not[0], state[0]);
 
 or(In_not, COMP[1], COMP[0], OUTS[3], OUTS[2], OUTS[1], OUTS[0], CODE[3], CODE[2], CODE[1], CODE[0]);
 not (In, In_not);
 
-buf(j1,q0);
-and(k1, q0, In_not);
+//buf(j1,q0);
+//and(k1, q0, In_not);
+buf(j1, state[0]);
+and(k1, state[0], In_not);
 
+//buf(j0, 1'b1);
+//buf(k0, q1_not);
 buf(j0, 1'b1);
-buf(k0, q1_not);
+buf(k0, state_not[1]);
 
-JkFlipFlop J1(j1,k1,TIME,START,q1, q1_not);
-JkFlipFlop J0(j0,k0,TIME,START,q0, q0_not);
+JkFlipFlop J1(j1,k1,TIME,START, state[1], state_not[1]);
+JkFlipFlop J0(j0,k0,TIME,START, state[0], state_not[0]);
 
-and(OVER, q1, q0, In);
+and(OVER, state[1], state[0], In);
 
 endmodule
