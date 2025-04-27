@@ -1,0 +1,4 @@
+Running: xsim.dir/autotest1_behavioural_behav/xsimk.exe -simmode gui -wdb autotest1_behavioural_behav.wdb -simrunnum 0 -socket 14038
+Design successfully loaded
+Design Loading Memory Usage: 28536 KB (Peak: 28536 KB)
+Design Loading CPU Usage: 686 ms
