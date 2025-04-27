@@ -20,18 +20,18 @@
 //////////////////////////////////////////////////////////////////////////////////
 
 
-module FSM(
+module ass2_behavioural(
     input START, // reset
     input TIME,
     input [1:0] COMP,
     input [3:0] OUTS,
     input [3:0] CODE,
-    output reg OVER,
-    output reg [1:0] curr_state, next_state
+    output reg OVER
 );
 
 //signal declaration
 reg in;
+reg [1:0] curr_state, next_state;
 
 // state register
 always@(posedge TIME, posedge START) begin
