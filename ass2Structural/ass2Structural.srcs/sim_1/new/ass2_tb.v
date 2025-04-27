@@ -48,9 +48,6 @@ initial begin
     COMP = 2'b11;
     OUTS = 4'b1111;
     CODE = 4'b1111;
-
-    // Wait for global reset
-//    #10;
     
     // Start the FSM
     START = 1;
@@ -92,6 +89,11 @@ initial begin
     COMP = 2'b00;
     OUTS = 4'b0000;
     CODE = 4'b0000;
+    #100;
+    
+    START = 1;
+    #10;
+    START = 0;
     #10;
     
     // Finish simulation

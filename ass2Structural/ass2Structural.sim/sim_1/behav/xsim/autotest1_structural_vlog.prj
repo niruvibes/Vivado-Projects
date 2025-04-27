@@ -2,7 +2,7 @@
 verilog xil_defaultlib  \
 "../../../../ass2Structural.srcs/sources_1/new/JkFlipFlop.v" \
 "../../../../ass2Structural.srcs/sources_1/new/ass2_structural.v" \
-"../../../../ass2Structural.srcs/sim_1/new/ass2_tb_2.v" \
+"../../../../ass2Structural.srcs/sim_1/new/autotest1_structural.v" \
 
 # compile glbl module
 verilog xil_defaultlib "glbl.v"

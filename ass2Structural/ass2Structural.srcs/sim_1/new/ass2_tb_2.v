@@ -22,6 +22,8 @@
 
 module ass2_tb_2();
 // this is stolen from avnzx and will not be used in my report, DO NOT USE THIS
+// istg if u use this u will die
+
 // Inputs
 reg START;
 reg TIME;
