@@ -1,0 +1,11 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../ass2Structural.srcs/sources_1/new/JkFlipFlop.v" \
+"../../../../ass2Structural.srcs/sources_1/new/ass2_structural.v" \
+"../../../../ass2Structural.srcs/sim_1/new/ass2_tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

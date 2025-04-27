@@ -1,0 +1,11 @@
+0.7
+2020.2
+Nov  8 2024
+22:36:57
+C:/Users/neilt/Documents/Vivado-Projects/ass2Structural/ass2Structural.sim/sim_1/behav/xsim/glbl.v,1724786425,verilog,,,,glbl,,,,,,,,
+C:/Users/neilt/Documents/Vivado-Projects/ass2Structural/ass2Structural.srcs/sim_1/new/JKFlipFlop_tb.v,1745672985,verilog,,,,jkFlipFlop_tb,,,,,,,,
+C:/Users/neilt/Documents/Vivado-Projects/ass2Structural/ass2Structural.srcs/sim_1/new/JkFlipFlop_tb.v,1745673359,verilog,,,,JkFlipFlop_tb,,,,,,,,
+C:/Users/neilt/Documents/Vivado-Projects/ass2Structural/ass2Structural.srcs/sim_1/new/ass2_tb.v,1745676454,verilog,,,,ass2_tb,,,,,,,,
+C:/Users/neilt/Documents/Vivado-Projects/ass2Structural/ass2Structural.srcs/sources_1/new/JKFlipFlop.v,1745670495,verilog,,C:/Users/neilt/Documents/Vivado-Projects/ass2Structural/ass2Structural.srcs/sim_1/new/JKFlipFlop_tb.v,,JKFlipFlop,,,,,,,,
+C:/Users/neilt/Documents/Vivado-Projects/ass2Structural/ass2Structural.srcs/sources_1/new/JkFlipFlop.v,1745672603,verilog,,C:/Users/neilt/Documents/Vivado-Projects/ass2Structural/ass2Structural.srcs/sources_1/new/ass2_structural.v,,JkFlipFlop,,,,,,,,
+C:/Users/neilt/Documents/Vivado-Projects/ass2Structural/ass2Structural.srcs/sources_1/new/ass2_structural.v,1745746582,verilog,,C:/Users/neilt/Documents/Vivado-Projects/ass2Structural/ass2Structural.srcs/sim_1/new/ass2_tb.v,,ass2_structural,,,,,,,,
