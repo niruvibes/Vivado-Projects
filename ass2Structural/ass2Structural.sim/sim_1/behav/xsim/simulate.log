@@ -1,0 +1,14 @@
+Time resolution is 1 ps
+sim_time: 0, START: 1, TIME: 0, COMP: 01, OUTS: 0001, CODE: 0001, OVER: 0
+sim_time: 20000, START: 1, TIME: 1, COMP: 01, OUTS: 0001, CODE: 0001, OVER: 0
+sim_time: 40000, START: 1, TIME: 0, COMP: 01, OUTS: 0001, CODE: 0001, OVER: 0
+sim_time: 50000, START: 0, TIME: 0, COMP: 01, OUTS: 0001, CODE: 0001, OVER: 0
+sim_time: 60000, START: 0, TIME: 1, COMP: 01, OUTS: 0001, CODE: 0001, OVER: 0
+sim_time: 80000, START: 0, TIME: 0, COMP: 01, OUTS: 0001, CODE: 0001, OVER: 0
+sim_time: 100000, START: 0, TIME: 1, COMP: 01, OUTS: 0001, CODE: 0001, OVER: 0
+sim_time: 120000, START: 0, TIME: 0, COMP: 01, OUTS: 0001, CODE: 0001, OVER: 0
+sim_time: 140000, START: 0, TIME: 1, COMP: 00, OUTS: 0000, CODE: 0000, OVER: 1
+sim_time: 160000, START: 0, TIME: 0, COMP: 00, OUTS: 0000, CODE: 0000, OVER: 1
+sim_time: 180000, START: 0, TIME: 1, COMP: 00, OUTS: 0000, CODE: 0000, OVER: 1
+sim_time: 200000, START: 0, TIME: 0, COMP: 00, OUTS: 0000, CODE: 0000, OVER: 1
+$finish called at time : 220 ns : File "C:/Users/neilt/Documents/Vivado-Projects/ass2Structural/ass2Structural.srcs/sim_1/new/autotest1_structural.v" Line 37
