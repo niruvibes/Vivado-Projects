@@ -31,70 +31,24 @@ reg [3:0] CODE;
 // Outputs
 wire OVER;
 
-// Instantiate the Unit Under Test (UUT)
-ass2_structural uut (
-    .START(START), 
-    .TIME(TIME), 
-    .COMP(COMP), 
-    .OUTS(OUTS), 
-    .CODE(CODE), 
-    .OVER(OVER)
-);
+ass2_structural UUT(START, TIME, COMP, OUTS, CODE, OVER);
 
 initial begin
-    // Initialize Inputs
-    START = 0;
-    TIME = 0;
-    COMP = 2'b11;
-    OUTS = 4'b1111;
-    CODE = 4'b1111;
-    
-    // Start the FSM
-    START = 1;
-    #10;
-    START = 0;
-    #10;
-    
-    // Basic operation test
-    TIME = 1;
-    COMP = 2'b00;
-    OUTS = 4'b0000;
-    CODE = 4'b0000;
-    #10;
-    
-    TIME = 0;
-    #10;
-    
-    // Test with different COMP, OUTS and CODE values
-    TIME = 1;
-    COMP = 2'b01;
-    OUTS = 4'b0011;
-    CODE = 4'b0101;
-    #10;
-    
-    TIME = 0;
-    #10;
-    
-    TIME = 1;
-    COMP = 2'b11;
-    OUTS = 4'b1111;
-    CODE = 4'b1111;
-    #10;
-    
-    // Toggle TIME signal to simulate clocking
-    TIME = 0;
-    #10;
-    
-    TIME = 1;
-    COMP = 2'b00;
-    OUTS = 4'b0000;
-    CODE = 4'b0000;
-    #100;
-    
-    START = 1;
-    #10;
-    START = 0;
-    #10;
+    forever begin
+        #20
+        assign TIME = ~TIME;
+    end 
+end
+
+initial begin
+    {START, TIME, COMP, OUTS, CODE} = 12'b100000000001;
+    #50;
+    START = 1'b0;
+    #170;
+    START = 1'b1;
+    #80
+    START = 1'b0;
+    {COMP, OUTS, CODE} = 10'b0000000000;
     
     // Finish simulation
     $finish;

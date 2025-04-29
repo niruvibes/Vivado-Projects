@@ -1,0 +1,140 @@
+#-----------------------------------------------------------
+# Vivado v2024.2 (64-bit)
+# SW Build 5239630 on Fri Nov 08 22:35:27 MST 2024
+# IP Build 5239520 on Sun Nov 10 16:12:51 MST 2024
+# SharedData Build 5239561 on Fri Nov 08 14:39:27 MST 2024
+# Start of session at: Tue Apr 29 15:00:42 2025
+# Process ID         : 24300
+# Current directory  : C:/Users/neilt/Documents/UNSW/Vivado-Projects/project_4
+# Command line       : vivado.exe -gui_launcher_event rodinguilauncherevent13620 C:\Users\neilt\Documents\UNSW\Vivado-Projects\project_4\project_4.xpr
+# Log file           : C:/Users/neilt/Documents/UNSW/Vivado-Projects/project_4/vivado.log
+# Journal file       : C:/Users/neilt/Documents/UNSW/Vivado-Projects/project_4\vivado.jou
+# Running On         : neils-windows
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 26100
+# Processor Detail   : 11th Gen Intel(R) Core(TM) i7-1185G7 @ 3.00GHz
+# CPU Frequency      : 1805 MHz
+# CPU Physical cores : 4
+# CPU Logical cores  : 8
+# Host memory        : 34073 MB
+# Swap memory        : 2147 MB
+# Total Virtual      : 36220 MB
+# Available Virtual  : 24756 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/neilt/Documents/UNSW/Vivado-Projects/project_4/project_4.xpr
+INFO: [Project 1-313] Project file moved from 'C:/Users/neilt/Documents/Vivado-Projects/project_4' since last save.
+INFO: [filemgmt 56-3] Default IP Output Path : Could not find the directory 'C:/Users/neilt/Documents/UNSW/Vivado-Projects/project_4/project_4.gen/sources_1'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2024.2/data/ip'.
+open_project: Time (s): cpu = 00:00:31 ; elapsed = 00:00:15 . Memory (MB): peak = 1202.145 ; gain = 99.324
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Tue Apr 29 15:41:27 2025...
+ct_4.srcs\sources_1\new\no_2.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\neilt\Documents\UNSW\Vivado-Projects\project_4\project_4.srcs\sources_1\new\shift_reg.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\neilt\Documents\UNSW\Vivado-Projects\project_4\project_4.srcs\sources_1\new\shift_reg.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\neilt\Documents\UNSW\Vivado-Projects\project_4\project_4.srcs\sources_1\new\shift_reg.v:]
+ERROR: [Common 17-180] Spawn failed: No error
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\neilt\Documents\UNSW\Vivado-Projects\project_4\project_4.srcs\sources_1\new\no_2.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\neilt\Documents\UNSW\Vivado-Projects\project_4\project_4.srcs\sources_1\new\shift_reg.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\neilt\Documents\UNSW\Vivado-Projects\project_4\project_4.srcs\sources_1\new\shift_reg.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\neilt\Documents\UNSW\Vivado-Projects\project_4\project_4.srcs\sources_1\new\shift_reg.v:]
+ERROR: [Common 17-180] Spawn failed: No error
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\neilt\Documents\UNSW\Vivado-Projects\project_4\project_4.srcs\sources_1\new\no_2.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\neilt\Documents\UNSW\Vivado-Projects\project_4\project_4.srcs\sources_1\new\shift_reg.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\neilt\Documents\UNSW\Vivado-Projects\project_4\project_4.srcs\sources_1\new\shift_reg.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\neilt\Documents\UNSW\Vivado-Projects\project_4\project_4.srcs\sources_1\new\shift_reg.v:]
+ERROR: [Common 17-180] Spawn failed: No error
+update_compile_order -fileset sources_1
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\neilt\Documents\UNSW\Vivado-Projects\project_4\project_4.srcs\sources_1\new\no_2.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\neilt\Documents\UNSW\Vivado-Projects\project_4\project_4.srcs\sources_1\new\shift_reg.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\neilt\Documents\UNSW\Vivado-Projects\project_4\project_4.srcs\sources_1\new\shift_reg.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\neilt\Documents\UNSW\Vivado-Projects\project_4\project_4.srcs\sources_1\new\shift_reg.v:]
+ERROR: [Common 17-180] Spawn failed: No error
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\neilt\Documents\UNSW\Vivado-Projects\project_4\project_4.srcs\sources_1\new\no_2.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\neilt\Documents\UNSW\Vivado-Projects\project_4\project_4.srcs\sources_1\new\shift_reg.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\neilt\Documents\UNSW\Vivado-Projects\project_4\project_4.srcs\sources_1\new\shift_reg.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\neilt\Documents\UNSW\Vivado-Projects\project_4\project_4.srcs\sources_1\new\shift_reg.v:]
+ERROR: [Common 17-180] Spawn failed: No error
+update_compile_order -fileset sources_1
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\neilt\Documents\UNSW\Vivado-Projects\project_4\project_4.srcs\sources_1\new\no_2.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\neilt\Documents\UNSW\Vivado-Projects\project_4\project_4.srcs\sources_1\new\shift_reg.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\neilt\Documents\UNSW\Vivado-Projects\project_4\project_4.srcs\sources_1\new\shift_reg.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\neilt\Documents\UNSW\Vivado-Projects\project_4\project_4.srcs\sources_1\new\shift_reg.v:]
+ERROR: [Common 17-180] Spawn failed: No error
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\neilt\Documents\UNSW\Vivado-Projects\project_4\project_4.srcs\sources_1\new\no_2.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\neilt\Documents\UNSW\Vivado-Projects\project_4\project_4.srcs\sources_1\new\shift_reg.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\neilt\Documents\UNSW\Vivado-Projects\project_4\project_4.srcs\sources_1\new\shift_reg.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\neilt\Documents\UNSW\Vivado-Projects\project_4\project_4.srcs\sources_1\new\shift_reg.v:]
+ERROR: [Common 17-180] Spawn failed: No error
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\neilt\Documents\UNSW\Vivado-Projects\project_4\project_4.srcs\sources_1\new\no_2.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\neilt\Documents\UNSW\Vivado-Projects\project_4\project_4.srcs\sources_1\new\shift_reg.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\neilt\Documents\UNSW\Vivado-Projects\project_4\project_4.srcs\sources_1\new\shift_reg.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\neilt\Documents\UNSW\Vivado-Projects\project_4\project_4.srcs\sources_1\new\shift_reg.v:]
+ERROR: [Common 17-180] Spawn failed: No error
+update_compile_order -fileset sources_1
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\neilt\Documents\UNSW\Vivado-Projects\project_4\project_4.srcs\sources_1\new\no_2.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\neilt\Documents\UNSW\Vivado-Projects\project_4\project_4.srcs\sources_1\new\shift_reg.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\neilt\Documents\UNSW\Vivado-Projects\project_4\project_4.srcs\sources_1\new\shift_reg.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\neilt\Documents\UNSW\Vivado-Projects\project_4\project_4.srcs\sources_1\new\shift_reg.v:]
+ERROR: [Common 17-180] Spawn failed: No error
+set_property top no_2 [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\neilt\Documents\UNSW\Vivado-Projects\project_4\project_4.srcs\sources_1\new\no_2.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\neilt\Documents\UNSW\Vivado-Projects\project_4\project_4.srcs\sources_1\new\shift_reg.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\neilt\Documents\UNSW\Vivado-Projects\project_4\project_4.srcs\sources_1\new\shift_reg.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\neilt\Documents\UNSW\Vivado-Projects\project_4\project_4.srcs\sources_1\new\shift_reg.v:]
+ERROR: [Common 17-180] Spawn failed: No error
+update_compile_order -fileset sim_1
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\neilt\Documents\UNSW\Vivado-Projects\project_4\project_4.srcs\sources_1\new\no_2.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\neilt\Documents\UNSW\Vivado-Projects\project_4\project_4.srcs\sources_1\new\shift_reg.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\neilt\Documents\UNSW\Vivado-Projects\project_4\project_4.srcs\sources_1\new\shift_reg.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\neilt\Documents\UNSW\Vivado-Projects\project_4\project_4.srcs\sources_1\new\shift_reg.v:]
+ERROR: [Common 17-180] Spawn failed: No error
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'no_2'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/neilt/Documents/UNSW/Vivado-Projects/project_4/project_4.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2024.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'no_2' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/neilt/Documents/UNSW/Vivado-Projects/project_4/project_4.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj no_2_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/neilt/Documents/UNSW/Vivado-Projects/project_4/project_4.srcs/sources_1/new/shift_reg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module shift_reg
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/neilt/Documents/UNSW/Vivado-Projects/project_4/project_4.srcs/sources_1/new/no_2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module no_2
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/neilt/Documents/UNSW/Vivado-Projects/project_4/project_4.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/neilt/Documents/UNSW/Vivado-Projects/project_4/project_4.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot no_2_behav xil_defaultlib.no_2 xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2024.2.0
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2024.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot no_2_behav xil_defaultlib.no_2 xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+ERROR: [VRFC 10-3236] concurrent assignment to a non-net 'out' is not permitted [C:/Users/neilt/Documents/UNSW/Vivado-Projects/project_4/project_4.srcs/sources_1/new/no_2.v:29]
+ERROR: [XSIM 43-3322] Static elaboration of top level Verilog design unit(s) in library work failed.
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-99] Step results log file:'C:/Users/neilt/Documents/UNSW/Vivado-Projects/project_4/project_4.sim/sim_1/behav/xsim/elaborate.log'
+ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or 'C:/Users/neilt/Documents/UNSW/Vivado-Projects/project_4/project_4.sim/sim_1/behav/xsim/elaborate.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+launch_simulation: Time (s): cpu = 00:00:00 ; elapsed = 00:00:05 . Memory (MB): peak = 1249.453 ; gain = 0.000
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+exit
+INFO: [Common 17-206] Exiting Vivado at Tue Apr 29 15:41:25 2025...

@@ -22,9 +22,9 @@
 
 module no_2(
     input clk,
-    input btnC
+    input reset,
+    output reg [15:0] out
     );
 
-wire [7:0] out;
-shift_reg shifter(clk, 1'b0, out);
+shift_reg shifter(clk, reset, 1'b0, out);
 endmodule
