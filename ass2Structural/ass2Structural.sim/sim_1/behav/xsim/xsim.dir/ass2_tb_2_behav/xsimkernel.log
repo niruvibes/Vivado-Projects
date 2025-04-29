@@ -2,3 +2,6 @@ Running: xsim.dir/ass2_tb_2_behav/xsimk.exe -simmode gui -wdb ass2_tb_2_behav.wd
 Design successfully loaded
 Design Loading Memory Usage: 28580 KB (Peak: 28580 KB)
 Design Loading CPU Usage: 624 ms
+Simulation completed
+Simulation Memory Usage: 29480 KB (Peak: 29480 KB)
+Simulation CPU Usage: 703 ms
