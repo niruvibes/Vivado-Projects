@@ -41,17 +41,14 @@ initial begin
 end
 
 initial begin
-    {START, TIME, COMP, OUTS, CODE} = 12'b100000000001;
+    {START, TIME, COMP, OUTS, CODE} = 12'b100100010001;
     #50;
     START = 1'b0;
     #170;
     START = 1'b1;
-    #80
+    #30;
     START = 1'b0;
     {COMP, OUTS, CODE} = 10'b0000000000;
-    
-    // Finish simulation
-    $finish;
 end
 
 initial begin
