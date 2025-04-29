@@ -29,22 +29,23 @@ wire q, q_not;
 JkFlipFlop UUT(j, k, clk, reset, q, q_not);
 
 initial begin
+    j = 0; k = 0;
     reset = 1'b1;
-    #10
-    reset = 1'b0;
     clk = 1'b0;
+    #10;
+    reset = 1'b0;
     forever begin
-        #10
         assign clk = ~clk;
+        #10;
     end
 end
 
 initial begin
+    #10
     j = 1; k = 0; #100;
     j = 0; k = 1; #100;
     j = 0; k = 0; #100;
     j = 1; k = 1; #100;
     j = 0; k = 0; #100;
 end
-
 endmodule
